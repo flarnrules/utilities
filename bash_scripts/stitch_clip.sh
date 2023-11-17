@@ -2,14 +2,15 @@
 
 # Array of input files (add or remove files as needed)
 input_files=(
-    "/mnt/c/Users/Benjamin/Videos/timelapses/timelapse_dwg3_tl_1.mp4"
-    "/mnt/c/Users/Benjamin/Videos/timelapses/timelapse_dwg3_tl_2.mp4"
+    "/mnt/c/Users/Benjamin/Videos/timelapses/tlwide_dwg3_tl_1.mp4"
+    "/mnt/c/Users/Benjamin/Videos/timelapses/tlwide_dwg3_tl_2.mp4"
+    "/mnt/c/Users/Benjamin/Videos/timelapses/tlwide_dwg3_tl_3.mp4"
     
     # Add more files here
 )
 
 # Output file path
-output_file="/mnt/c/Users/Benjamin/Videos/timelapses/stitched_dwg3.mp4"
+output_file="/mnt/c/Users/Benjamin/Videos/timelapses/wide_stitched_dwg3.mp4"
 
 # Temporary file for the file list
 temp_file_list=$(mktemp /tmp/filelist.XXXXXX.txt)
